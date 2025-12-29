@@ -1,0 +1,51 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>BodySync | Dashboard</title>
+    <link rel="stylesheet" href="dashboard.css">
+</head>
+<body>
+
+<a href="home.html" class="back-link">← Back to Home</a>
+
+<h1 class="welcome" id="welcomeText">Welcome back!</h1>
+<p class="quote">"Your health is your greatest wealth."</p>
+
+<!-- USER PROFILE -->
+<div class="card profile-card">
+    <h2>User Profile</h2>
+    <p><strong>Name:</strong> <span id="nameData">--</span></p>
+    <p><strong>Gender:</strong> <span id="genderData">--</span></p>
+    <p><strong>Last Login:</strong> <span id="loginData">--</span></p>
+</div>
+
+<!-- HEALTH SUMMARY -->
+<div class="card summary-card">
+    <h2>Health Summary</h2>
+
+    <div class="summary-item">
+        <h3>BMI</h3>
+        <p id="bmiData">--</p>
+    </div>
+
+    <div class="summary-item">
+        <h3>Water Intake</h3>
+        <p id="waterData">--</p>
+    </div>
+
+    <div class="summary-item">
+        <h3>Sleep</h3>
+        <p id="sleepData">--</p>
+    </div>
+
+    <div class="summary-item">
+        <h3>Calories</h3>
+        <p id="calData">--</p>
+    </div>
+</div>
+
+<script src="dashboard.js"></script>
+</body>
+</html>

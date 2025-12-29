@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>BodySync | Calorie Tracker</title>
+    <link rel="stylesheet" href="calorie.css">
+</head>
+<body>
+
+<div class="container">
+    <h1>Calorie Tracker</h1>
+    <p id="dateText" class="date"></p>
+
+
+    <!-- Goal -->
+    <label>Daily Calorie Goal (kcal)</label>
+    <input type="number" id="goalInput" placeholder="e.g. 2000">
+    <button id="setGoalBtn">Set Goal</button>
+
+    <!-- Progress -->
+    <div class="progress-box">
+        <h3>Today's Progress</h3>
+        <p id="summaryText">0 / 0 kcal</p>
+
+        <div class="progress-bar">
+            <div id="progressFill"></div>
+        </div>
+
+        <p id="percentText">0%</p>
+    </div>
+
+    <!-- Add Calories -->
+    <label>Add Calories</label>
+    <input type="number" id="calInput" placeholder="Enter calories">
+    <button id="addCalBtn">Add</button>
+
+    <!-- History -->
+    <h3>Calorie History</h3>
+    <ul id="historyList"></ul>
+
+    <!-- Suggestion -->
+    <p id="suggestionText" class="suggestion"></p>
+
+    <button id="resetBtn" class="reset">Reset Day</button>
+
+</div>
+
+<script src="calorie.js"></script>
+</body>
+</html>

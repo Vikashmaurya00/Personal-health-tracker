@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>BodySync | Sleep Tracker</title>
+    <link rel="stylesheet" href="sleep.css">
+</head>
+<body>
+
+<div class="container">
+
+    <h1>Sleep Tracker</h1>
+
+    <!-- Age -->
+    <label>Your Age</label>
+    <input type="number" id="ageInput" placeholder="Enter age">
+
+    <button id="showRecommended">Show Recommended Sleep</button>
+
+    <p id="recommendedText" class="info-text"></p>
+
+    <hr>
+
+    <!-- Sleep Inputs -->
+    <label>Sleep Time</label>
+    <input type="time" id="sleepTime">
+
+    <label>Wake Up Time</label>
+    <input type="time" id="wakeTime">
+
+    <button id="calculateBtn">Calculate Sleep</button>
+
+    <!-- Result -->
+    <div class="result-box">
+        <h3>Your Sleep Duration</h3>
+        <p id="sleepResult">--</p>
+        <p id="statusText" class="status"></p>
+        <p id="tipText" class="tip"></p>
+    </div>
+
+    <!-- History -->
+    <h3>Sleep History</h3>
+    <ul id="historyList"></ul>
+
+    <button id="resetBtn" class="reset">Reset History</button>
+
+</div>
+
+<script src="sleep.js"></script>
+</body>
+</html>

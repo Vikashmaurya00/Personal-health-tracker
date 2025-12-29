@@ -1,0 +1,97 @@
+/* Background */
+body {
+    margin: 0;
+    padding: 0;
+    font-family: "Poppins", sans-serif;
+    background: linear-gradient(to right, #6ef5e8, #8ab6ff);
+}
+
+/* Main Container */
+.container {
+    width: 70%;
+    margin: 40px auto;
+    padding: 40px;
+    background: rgba(255, 255, 255, 0.9);
+    border-radius: 15px;
+    box-shadow: 0 8px 20px rgba(0,0,0,0.2);
+}
+
+/* Title */
+.title {
+    text-align: center;
+    color: #006daa;
+    margin-top: 10px;
+}
+
+/* Subtitle */
+.tagline {
+    text-align: center;
+    font-size: 17px;
+    margin-bottom: 25px;
+    color: #444;
+}
+
+/* Sections */
+.section {
+    margin-bottom: 30px;
+}
+
+.section h2 {
+    color: #005b99;
+}
+
+.section p,
+.section ul {
+    font-size: 16px;
+    line-height: 1.6;
+}
+
+ul {
+    padding-left: 20px;
+}
+
+/* Divider */
+.divider {
+    margin: 40px 0;
+    border: none;
+    border-top: 2px solid #ccc;
+}
+
+/* Contact Box */
+.contact-box form input,
+.contact-box form textarea {
+    width: 100%;
+    padding: 12px;
+    margin-bottom: 15px;
+    border-radius: 8px;
+    border: 1px solid #bbb;
+    font-size: 15px;
+}
+
+textarea {
+    height: 120px;
+    resize: none;
+}
+
+button {
+    width: 100%;
+    padding: 12px;
+    background-color: #0078c9;
+    color: white;
+    border: none;
+    border-radius: 8px;
+    font-size: 16px;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #016bb1;
+}
+
+/* Footer */
+.footer {
+    text-align: center;
+    margin-top: 30px;
+    font-weight: bold;
+    color: #333;
+}

@@ -1,0 +1,104 @@
+/* RESET */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Poppins", sans-serif;
+}
+
+/* Background Gradient (same as other pages) */
+body {
+  background: linear-gradient(135deg, #7fffd4, #a7c5ff);
+  min-height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+/* Main Box */
+.container {
+  background: rgba(255, 255, 255, 0.85);
+  padding: 30px;
+  width: 380px;
+  border-radius: 15px;
+  box-shadow: 0px 8px 18px rgba(0, 0, 0, 0.15);
+  text-align: center;
+}
+
+/* Heading */
+.container h1 {
+  color: #0074b7;
+  margin-bottom: 20px;
+  font-size: 26px;
+}
+
+/* Inputs */
+input {
+  width: 100%;
+  padding: 12px;
+  margin: 10px 0;
+  border: 1px solid #ccc;
+  border-radius: 8px;
+  font-size: 15px;
+}
+
+/* Gender Buttons */
+.gender-box {
+  display: flex;
+  justify-content: center;
+  gap: 15px;
+  margin: 15px 0;
+}
+
+.gender-box button {
+  width: 100px;
+  padding: 10px;
+  border: none;
+  border-radius: 8px;
+  background: #d3ebff;
+  cursor: pointer;
+  font-weight: bold;
+  transition: 0.3s;
+}
+
+.gender-box button:hover {
+  background: #b8dfff;
+}
+
+/* Active Gender Button */
+.gender-box .active {
+  background: #0074b7;
+  color: #fff;
+}
+
+/* Calculate Button */
+.calc {
+  width: 100%;
+  padding: 12px;
+  border: none;
+  background: #0074b7;
+  color: white;
+  border-radius: 8px;
+  cursor: pointer;
+  margin: 15px 0;
+  font-size: 16px;
+  transition: 0.3s;
+}
+
+.calc:hover {
+  background: #005fa0;
+}
+
+/* Output Box */
+#outputBox {
+  background: #e8f6ff;
+  padding: 15px;
+  border-radius: 10px;
+  margin-top: 15px;
+  text-align: left;
+}
+
+#outputBox p {
+  margin: 5px 0;
+  font-size: 15px;
+}

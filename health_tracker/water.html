@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>BodySync | Water Tracker</title>
+  <link rel="stylesheet" href="water.css">
+</head>
+<body>
+
+  <div class="container">
+
+    <h1>Water Intake Tracker</h1>
+
+    <!-- Set Goal -->
+    <label>Daily Water Goal (ml)</label>
+    <input type="number" id="goalInput" placeholder="e.g. 2000">
+    <button id="setGoalBtn">Set Goal</button>
+
+    <!-- Progress -->
+    <div class="progress-box">
+      <h3>Today's Progress</h3>
+      <p id="totalText">0 / 0 ml</p>
+      <div class="progress-bar">
+        <div id="progressFill"></div>
+      </div>
+      <p id="percentText">0%</p>
+    </div>
+
+    <!-- Quick Add -->
+    <div class="buttons">
+      <button class="quick" data-ml="250">+250 ml</button>
+      <button class="quick" data-ml="500">+500 ml</button>
+      <button class="quick" data-ml="750">+750 ml</button>
+    </div>
+
+    <!-- Custom Add -->
+    <div class="custom-add">
+      <input type="number" id="customInput" placeholder="Enter amount">
+      <button id="addCustomBtn">Add</button>
+    </div>
+
+    <!-- History -->
+    <h3>Today's History</h3>
+    <ul id="historyList"></ul>
+
+    <button id="resetBtn" class="reset">Reset Day</button>
+
+  </div>
+
+<script src="water.js"></script>
+</body>
+</html>

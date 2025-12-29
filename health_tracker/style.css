@@ -1,0 +1,93 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Poppins", sans-serif;
+}
+
+body {
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background: linear-gradient(to right, #f8f8f8, #7fffd4); /* left off-white, right light aqua */
+}
+
+.container {
+  background: #f8f8f8; /* off-white panel */
+  width: 350px;
+  padding: 40px;
+  border-radius: 15px;
+  box-shadow: 0 8px 20px rgba(0,0,0,0.2);
+  text-align: center;
+}
+
+h1.site.name {
+  margin-bottom: 10px;
+  color: white; /* welcome text white */
+}
+
+h2 {
+  margin-bottom: 25px;
+  color: #333;
+}
+
+form {
+  display: flex;
+  flex-direction: column;
+}
+
+input {
+  margin-bottom: 15px;
+  padding: 12px;
+  border: 1px solid #ccc;
+  border-radius: 6px;
+  font-size: 14px;
+}
+
+/* Gender Section Styling */
+.gender-section {
+  margin-bottom: 15px;
+  text-align: left;
+}
+
+.gender-section label {
+  font-weight: bold;
+  display: block;
+  margin-bottom: 5px;
+  color: #333;
+}
+
+.gender-section input[type="radio"] {
+  margin-right: 5px;
+  margin-left: 10px;
+  cursor: pointer;
+}
+
+
+button {
+  padding: 12px;
+  border: none;
+  border-radius: 25px;
+  cursor: pointer;
+  color: white;
+  font-weight: bold;
+  margin-top: 10px;
+  transition: all 0.3s ease;
+  box-shadow: 0 4px 6px rgba(0,0,0,0.2);
+}
+
+button:hover {
+  opacity: 0.9;
+  transform: translateY(-2px);
+}
+
+.login-btn {
+  background-color: black; /* login button black */
+}
+
+.register-btn,
+form button[type="submit"] {
+  background-color: #ff7f50; /* register button light coral */
+}
+
